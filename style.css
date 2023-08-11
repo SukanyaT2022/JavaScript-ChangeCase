@@ -1,0 +1,29 @@
+.wrapper{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 50px;
+background-image: url("https://img.freepik.com/free-vector/watercolor-rainbow-background-design_23-2149573234.jpg?size=626&ext=jpg&ga=GA1.2.1494624153.1691662819&semt=sph");
+background-repeat: no-repeat;
+background-size: cover;
+width: 70%;
+margin: auto;
+margin-top: 50px;
+}
+#controlButton{
+    display: block;
+    background-color:orange;
+    border: none;
+    margin: 20px auto 20px auto ;
+    padding: 10px 30px;
+}
+#choice{
+    margin: 10px 0px;
+}
+#answer{
+    width: 300px;
+}
+#enterSentence{
+    width: 300px; 
+}

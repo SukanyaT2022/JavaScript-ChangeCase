@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Change Case</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Change Case</h2>
+    <div class="wrapper">
+        <h2>Change Case</h2>
 <form>
     
 <label>Enter Sentence</label>
 <input type = "text" id="enterSentence"/>
-<br>
+
 <h3>
     <ol type="A">
         <li>Upper Case</li>
@@ -19,16 +21,17 @@
         <li>Sentence Case</li>
           <li>Title Case</li>
     </ol>
-    <br>
+
 </h3>
 <label>Enter choice</label>
 <input type = "text" id="choice"/>
 <br>
-<label>Answer</label>
+<label>Show Result</label>
 <input type = "text" id="answer"/>
-<input type = "button" value="submit" onclick="readEnterSentence()"/>
+<input type = "button" value="Change Case" id="controlButton" onclick="readEnterSentence()"/>
 </form>
 
     <script src="index.js"></script>
+    </div>
 </body>
 </html>
